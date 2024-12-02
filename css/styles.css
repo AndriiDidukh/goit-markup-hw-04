@@ -358,7 +358,6 @@ address {
 .footer-socials-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-link {
@@ -369,11 +368,14 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-socials-link:hover,
-.footer-socials-link:focus,
-.footer-socials-link:active {
+.footer-socials-link:hover {
+    background-color: #31d0aa;
+}
+
+.footer-socials-link:focus {
     background-color: #31d0aa;
 }
 
